@@ -108,9 +108,6 @@ if (isset($_POST['proses'])) {
     if ($nilai_akhir >= 60 && $kehadiran > 70 && $tugas >= 40 && $uts >= 40 && $uas >= 40) {
         $status = "lulus";
         $color = "success";
-    } elseif ($kehadiran < 70) {
-        $status = "tidak lulus";
-        $color = "danger";
     } else {
         $status = "tidak lulus";
         $color = "danger";
